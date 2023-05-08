@@ -3,7 +3,9 @@
 Для того, чтобы запустить телеграм-бота необходимо иметь токен для телеграм-бота и аккаунт с токеном на сайте https://openweathermap.org.
   + Вставьте токены в код в файле config.py
   ![Image alt](https://github.com/AlisaGorbunova29/My_Telegram_Bot/raw/main/for_README.md/config.jpg)
-  + Запустите main.py
+  + В папке проекта соберите и запустите контейнер с помощью команд:  
+      `docker build -t my_app`  
+       `docker run -d my_app`
   + Зайдите в телеграм в свой бот. Можете начинать им пользоваться!
   
  ## Инструкция по использованию
