@@ -1,5 +1,5 @@
 import requests
-from src.config import *
+from src.config import unicode_for_smile_weather, weather_token
 
 #парсит сайт с погодой и достаёт информацию про погоду в городе
 def get_weather(city):

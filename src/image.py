@@ -1,6 +1,5 @@
 import requests
 import re
-from src.config import*
 
 #парсит википедию и достаёт картинку города
 def get_picture(city):

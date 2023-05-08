@@ -1,9 +1,10 @@
 from aiogram import Bot, Dispatcher, executor, types
-from src.config import*
-from src.weather import*
-from src.short_info import*
-from src.image import*
-from src.attraction import*
+from src.config import token, MainMenu
+from src.weather import get_weather
+from src.short_info import summary
+from src.image import get_picture
+from src.attraction import get_attraction
+import re
 
 #создание бота
 bot = Bot(token)
@@ -83,6 +84,5 @@ async def request(message:types.Message):
     except:
         await message.reply('Проверьте название города')
         pass
-
 
 executor.start_polling(dp)

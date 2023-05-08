@@ -1,5 +1,4 @@
 from wikipedia import*
-from src.config import*
 
 wikipedia.set_lang("ru")
 

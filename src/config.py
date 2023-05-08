@@ -1,8 +1,8 @@
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import types
 
 #токены
-token = #добавьте свой токен
-weather_token = #добавьте свой токен от сайта https://openweathermap.org/
+token = "6122502396:AAGWvetQZM8ytpuuBSVkHfA-7AzDxrqY-D8"
+weather_token = "2867c707f7ef301bab1411d36ea751e3"
 
 #главное меню
 MainMenu = types.InlineKeyboardMarkup()

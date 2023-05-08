@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from src.config import*
 
 #парсит сайт с достопримечательностями и достаёт названия + картинки
 def get_attraction(city):
