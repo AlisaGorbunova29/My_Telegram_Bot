@@ -1,8 +1,8 @@
 from aiogram import types
 
 #токены
-token = "6122502396:AAGWvetQZM8ytpuuBSVkHfA-7AzDxrqY-D8"
-weather_token = "2867c707f7ef301bab1411d36ea751e3"
+token = #добавьте свой токен
+weather_token = #добавьте свой токен от сайта https://openweathermap.org/
 
 #главное меню
 MainMenu = types.InlineKeyboardMarkup()
