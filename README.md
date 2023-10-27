@@ -4,7 +4,7 @@
   + Вставьте токены в код в файле config.py
   ![Image alt](https://github.com/AlisaGorbunova29/My_Telegram_Bot/raw/main/for_README.md/config.jpg)
   + В папке проекта соберите и запустите контейнер с помощью команд:  
-      `docker build -t my_app`  
+      `docker build -t my_app .`  
        `docker run -d my_app`
   + Зайдите в телеграм в свой бот. Можете начинать им пользоваться!
   
